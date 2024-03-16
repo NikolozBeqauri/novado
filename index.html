@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Novado</title>
+</head>
+
+<body>
+    <header>
+        <div class="container centerd-flex">
+            <img src="./static/images/svg/rocket.svg" alt="rocket icon">
+            <h1>nova<span>do</span></h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <section class="main-form">
+                <form class="container centerd-flex">
+                    <input required type="text" id="main-form__input" placeholder="ცხოვრების რა ნაწილის დაგეგმვა გსურს?">
+                    <button class="main-form__button centerd-flex">
+                        <span>დამატება</span>
+                        <img src="./static/images/svg/plus.svg" alt="pluse icon">
+                    </button>
+                </form>
+            </section>
+
+            <section class="container tasks">
+
+                <div class="tasks__titles centerd-flex">
+                    <div class="centerd-flex">
+                        <h2>დავალებები</h2>
+                        <p id="tasks-counter">0</p>
+                    </div>
+                    <div class="centerd-flex">
+                        <h2>დასრულებული</h2>
+                        <p id="tasks-done">0</p>
+                    </div>
+                </div>
+
+                <div class="tasks__board">
+                    <div class="tasks__content centerd-flex">
+                        <img src="./static/images/png/clipboard.png" alt="clipboard">
+                        <h2>დავალებები ჯერ არ გაქვთ</h2>
+                        <p>შექმენით დავალებები და დაიწყეთ თქვენი ცხოვრების დაორგანიზება </p>
+                        <p>ჩვენთან ერთად</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./static/js/app.js"></script>
+</body>
+
+</html>
